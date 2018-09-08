@@ -1,0 +1,264 @@
+input,
+select,
+textarea
+{
+    text-indent: 10px;
+    border: 1px solid #DDDDDD;
+    color: #626262;
+    display: inline-block;
+    height: 42px;
+    outline: medium none;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0px 3px 0px 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+::-webkit-input-placeholder {
+padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+padding-left: 10px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+padding-left: 10px;
+}
+
+:-ms-input-placeholder {  
+padding-left: 10px;
+}
+
+input[type='checkbox']
+{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+textarea
+{
+    width: 450px;
+    height: 180px;
+}
+#container-center
+{
+    width: 680px;
+    margin: 7px auto;
+    text-align: center;
+    background-color: #FFF;
+}
+#alerts
+{
+    color: #F00;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#content
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#form
+{
+    text-align: center;
+}
+#form-center
+{
+    width: 4%;
+    float: left;
+    position: relative;
+}
+.left-col {
+    width: 48%;
+    float: left;
+}
+.right-col { 
+    width: 32%;
+    float: left;
+}
+.clear
+{
+   clear: left;
+}
+.or-line {
+    float: left;
+    width: 50%;   
+    border-right: 1px solid #aaa;
+    height: 12em;
+}
+.or-label {
+    background: #fffcfc;
+    color: #aaa;
+    height: 1em;
+    width: 1em;
+    left: 50%;
+    margin-left: -1em;
+    margin-top: 5em;
+    padding: .1em .7em .7em .5em;
+    position: absolute;
+    text-transform: uppercase;
+}
+#balance-timer-label
+{
+    font-weight: bold;
+    padding: 2px;
+    display: inline;
+}
+#balance-timer
+{
+    border: 1px solid #CCF;
+    padding: 2px;
+    display: inline; 
+}
+.form-row
+{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+	min-height: 30px;
+	vertical-align: center;
+}
+.form-label
+{
+    float: left;
+    width: 38%;
+    text-align: right;
+    padding-right: 5px;
+}
+.form-field
+{
+    float: left;
+    width: 58%;
+    text-align: left;
+    padding: 1px;
+    padding-top: 1px;
+}
+.form-button
+{
+    clear: both;
+    text-align: right;
+    padding: 1px;
+    padding-right: 10px;
+}
+input[type=submit],
+input[type=button],
+button,
+.button
+{
+    text-indent: 0px;
+	-webkit-appearance: none;
+    background-color: #39b7eb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 80px;
+    height: 33px;
+    cursor: pointer;
+    z-index: 999;
+}
+.button:disabled {
+    background-color: lightblue;
+}
+
+table.bill_item 
+{
+    width: 620px;
+    text-align: left;
+    margin-left: auto; 
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.bill_item th,td
+{
+    padding: 2px;
+}
+.bill_item td
+{
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.bill_item tr.header td 
+{
+    text-align: center;
+    background: #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    font-weight: bold;
+}
+.bill_item td.right 
+{
+    text-align: center;
+    border-right: 1px solid #CCCCCC;
+}
+.bill_item td.line
+{
+    border: 0;
+    padding: 0px;
+    border-top: 1px solid #CCCCCC;
+}
+#bill_item_content
+{
+    width: 620px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+}
+#tos
+{
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .left-col
+    {
+        width: 100%;
+    }
+    .right-col
+    {
+        width: 100%;
+    }
+    .or-line
+    {
+        width: 310px;
+        margin: auto;
+        border: none;
+        border-bottom: 1px solid #aaa;
+        height: 2em;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .or-label
+    {
+        background: #fffcfc;
+        width: 270px;
+        color: #aaa;
+        height: 1em;
+        width: 1.5em;
+        left: 50%;
+        margin-left: 10em;
+        margin-top: .7em;
+        padding: .5em;
+        position: absolute;
+        text-transform: uppercase;
+    }
+    .form-label
+    {
+        width: 95%;
+        text-align: left;
+    }
+    .form-field
+    {
+        width: 95%;
+    }
+}
